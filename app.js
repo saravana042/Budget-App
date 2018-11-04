@@ -42,6 +42,7 @@ var budgetController = (function(){
 
 				// create a New Id
 				if(data.allItems[type].length > 0){
+					console.log("here");
 					ID = data.allItems[type][data.allItems[type].length - 1].id + 1;
 				}
 				else{
